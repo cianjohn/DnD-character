@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ddstyle.css">
+
+    <!-- responsive hamburger -->
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox test</title>
+</head>
+<body>
+    <nav class="myNav">
+        <a href="https://cianjohn.com"><img src="./img/favicon.png" alt="CJ logo"></a>
+        <ul>
+        <li><a href="http://cianjohn.com/Bio/">Bio</a></li>
+        <li><a href="http://cianjohn.com/projects/">Projects</a></li>
+        <li><a href="http://cianjohn.com/contact/">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="row row1">
+            <div class="col card" id="characterName">
+                DIgBIck Johnson
+
+            </div>
+            <div class="col card" id="metaData">
+
+            </div>
+        </div>
+        <div class="row mainrow">
+            <div class="col maincol">
+                <div class="row">
+                    <div class="col card" id="stats">
+                        <div class="row card" id="strength">Strength</div>
+                        <div class="row card" id="dexterity">Dexterity</div>
+                        <div class="row card" id="constitution">Constitution</div>
+                        <div class="row card" id="intelligence">Intelligence</div>
+                        <div class="row card" id="wisdom">Wisdom</div>
+                        <div class="row card" id="charisma">Charisma</div>
+
+                    </div>
+                    <div class="col" id="bonus">
+                        <div class="row card" id="inspiration">inspiration</div>
+                        <div class="row card" id="profBonus">Proficiency Bonus</div>
+                        <div class="row card" id="savingThrows">
+                            <p>strength</p>
+                            <p>Dexterity</p>
+                            <p>Constitution</p>
+                            <p>Intelligence</p>
+                            <p>Wisdom</p>
+                            <p>charisma</p>
+                            <p class="title">Savings Throws</p>
+                        </div>
+                        <div class="row card" id="skills">
+                            <p>Acrobatics<small class="muted">(Dex)</small></p>
+                            <p>Animal Handling<small class="muted">(Wis)</small></p>
+                            <p>Arcane<small class="muted">(Int)</small></p>
+                            <p>Atheletics<small class="muted">(Str)</small></p>
+                            <p>Deception<small class="muted">(Cha)</small></p>
+                            <p>History<small class="muted">(Int)</small></p>
+                            <p>Insight<small class="muted">(Wis)</small></p>
+                            <p>Intimidation<small class="muted">(Cha)</small></p>
+                            <p>Investigation<small class="muted">(Int)</small></p>
+                            <p>Medicine<small class="muted">(Wis)</small></p>
+                            <p>Nature<small class="muted">(Int)</small></p>
+                            <p>Perception<small class="muted">(Wis)</small></p>
+                            <p>Performace<small class="muted">(Cha)</small></p>
+                            <p>Persausion<small class="muted">(Cha)</small></p>
+                            <p>Religion<small class="muted">(Int)</small></p>
+                            <p>Slieght of Hand<small class="muted">(Dex)</small></p>
+                            <p>Stealth<small class="muted">(Dex)</small></p>
+                            <p>survival<small class="muted">(Wis)</small></p>
+                            <p class="title">Skills</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row card" id="passPerc">
+                    <span></span><p>Passive Wisdom (Perception)</p>
+                </div>
+                <div class="row card" id="prof">
+                    <p></p>
+                    <p class="title">Other proficiency or languages</p>
+
+                </div>
+
+            </div>
+            <!-- end maincol 1 -->
+            <!-- maincol 2 -->
+            <div class="col maincol">
+                <div class="row card" id="hpac">
+                    <div class="col">
+                        <div class="row card">
+                            <div class="col card" id="AC">
+                                <p>Armour<br>Class</p>
+                            </div>
+                            <div class="col card" id="init">
+                                <p>Initiative</p>
+                            </div>
+                            <div class="col card" id="speed">
+                                <p>Speed</p>
+                            </div>
+                        </div>
+                        <div class="row card" id="currentHP">
+                            <p class="title">Current Hit Points</p>
+                        </div>
+                        <div class="row card" id="tempHP">
+                            <P class="title">Temporary Hit Points</P>
+                        </div>
+                        <div class="row">
+                            <div class="col card" id="hitDice">
+                                <p class="tile">Hit Dice</p>
+                            </div>
+                            <div class="col card" id="deathSave">
+                                <p class="title">Death Saves</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row card" id="attacks">
+                    <p></p>
+                    <p class="title">attacks & spellcasting</p>
+
+                </div>
+                <div class="row card" id="equip">
+                    <p></p>
+                    <p class="title">Equipment</p>
+
+                </div>
+
+            </div>
+            <!-- end col 2 -->
+            <!-- maincol3 -->
+            <div class="col maincol">
+                <div class="row card" id="characterInfo">
+                    <div class="col">
+                        <div class="row card">
+                            <p></p>
+                            <p class="title">Personality Traits</p>
+                        </div>
+                        <div class="row card">
+                            <p></p>
+                            <p class="title">Ideals</p>
+                        </div>
+                        <div class="row card">
+                            <p></p>
+                            <p class="title">Bonds</p>
+                        </div>
+                        <div class="row card">
+                            <p></p>
+                            <p class="title">Flaws</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row card" id="traits">
+                    <p></p>
+                    <p class="title">Features & Traits</p>
+                </div>
+
+            </div>
+            <!-- end col 3 -->
+        </div>
+    </main>
+    
+</body>
+</html>
